@@ -111,7 +111,7 @@ body {
     left: 0;
     right: 0;
     padding: 20px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    background: white;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -122,4 +122,5 @@ body {
     color: rgba(255,255,255,0.85); 
     margin-top: 8px;        
     line-height: 1.4;       
+
 }
