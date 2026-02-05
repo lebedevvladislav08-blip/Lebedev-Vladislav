@@ -4,7 +4,7 @@ body {
     background: #f3f3f3;
 }
 
-/* ШАПКА */
+
 .header {
     background: #fff;
     padding: 18px 0;
@@ -23,23 +23,23 @@ body {
     cursor: pointer;
 }
 
-/* КОНТЕНТ */
+
 .container {
     max-width: 1200px;
     margin: 30px auto;
 }
 
-/* КАРТОЧКИ */
+
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-/* РАЗМЕР 4 КАРТОЧЕК */
+
 .card {
     position: relative;
-    height: 400px;   /* ← ВОТ ЭТО МЕНЯЙ */
+    height: 400px;   
     overflow: hidden;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 
-/* ТЕКСТ НА КАРТИНКЕ */
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -93,9 +93,9 @@ body {
 }
 
 .wide-card {
-    position: relative;      /* важно, иначе overlay залезет на весь экран */
-    width: 50%;              /* две карточки в ряд */
-    height: 360px;           /* регулируем высоту */
+    position: relative;      
+    width: 50%;              
+    height: 360px;           
     overflow: hidden;
 }
 
@@ -115,11 +115,12 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* текст внизу */
+    justify-content: flex-end; 
 }
 .overlay .meta {
-    font-size: 15px;        /* чуть меньше, чем основной текст */
-    color: rgba(255,255,255,0.85); /* чуть прозрачнее */
-    margin-top: 8px;        /* отступ сверху, чтобы не слипалось */
-    line-height: 1.4;       /* расстояние между строками */
+    font-size: 15px;        
+    color: rgba(255,255,255,0.85); 
+    margin-top: 8px;        
+    line-height: 1.4;       
 }
+
